@@ -19,7 +19,7 @@ public class TestBase {
 
         step("Настраиваем тестируемую страницу", () -> {
             Configuration.baseUrl = "https://demoqa.com";
-            Configuration.browserSize = "1920x1080";
+            Configuration.browserSize = "1920x1920";
             Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -40,4 +40,8 @@ public class TestBase {
             closeWebDriver();
         });
     }
+
+
+
+
 }

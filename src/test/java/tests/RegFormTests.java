@@ -13,13 +13,13 @@ public class RegFormTests extends tests.TestBase {
 
     RegForm regForm = new RegForm();
 
-    String userName = "Oleg",
-            userSurnname = "Menshikov",
+    String  userName = "Oleg",
+            userSurnname = "Nochleg",
             userEmail = "123test@test.com",
             userGender = "Male",
             userPhone = "9071153497",
             userBdayMonth = "September",
-            userBdayYear = "1991",
+            userBdayYear = "1990",
             userSubject = "History",
             userHobby = "Reading",
             userCurrAddress = "Main street,90210",

@@ -105,15 +105,14 @@ public class RegForm {
 
     @Step("Проставляем штат студента")
     public RegForm selectState(String state) {
-        stateSelection.scrollIntoView(true);
-        stateSelection.click();
+        stateSelection.scrollTo().click();
         $(byText(state)).click();
         return this;
     }
 
     @Step("Проставляем город студента")
     public RegForm selectCity(String city) {
-        citySelection.click();
+        citySelection.scrollTo().click();
         $(byText(city)).click();
         return this;
     }
