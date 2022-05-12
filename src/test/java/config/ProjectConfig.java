@@ -14,7 +14,7 @@ public interface ProjectConfig extends Config {
     String browser();
 
     @Key("browserVersion")
-    @DefaultValue("91.0")
+    @DefaultValue("100.0")
     String browserVersion();
 
     @Key("browserSize")
